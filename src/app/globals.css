@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased subpixel-antialiased min-h-screen relative overflow-x-hidden;
+    /* Premium Health-Tech Gradient System - Bold Atmosphere */
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(190, 210, 240, 0.4) 0%, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(220, 210, 200, 0.4) 0%, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(210, 230, 255, 0.5) 0%, transparent 70%),
+      radial-gradient(at 0% 100%, rgba(240, 230, 220, 0.4) 0%, transparent 60%);
+    background-attachment: fixed;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Refined thin scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-slate-200/80 rounded-full hover:bg-slate-300 transition-colors;
+  }
 }
