@@ -1,3 +1,5 @@
+import BuildersLab from "@/components/BuildersLab";
+
 export default function Home() {
   return (
     <main className="w-full max-w-3xl mx-auto pt-12 pb-12 px-6 sm:px-8">
@@ -17,8 +19,8 @@ export default function Home() {
       {/* SECTION 01: THE PITCH */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">I am not a "Head of Education" or a "D2C Expert."</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">I am a Product-Minded Generalist who builds the systems that make teams efficient.</h4>
+          <h3 className="text-lg font-semibold text-slate-900">01. The Pitch</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">I am not a "Head of Education" or a "D2C Expert."</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
@@ -35,8 +37,8 @@ export default function Home() {
       {/* SECTION 02: THE TOOLKIT */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">What I Bring to the Table</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">A hybrid background of Corporate Discipline + Freelance Agility.</h4>
+          <h3 className="text-lg font-semibold text-slate-900">02. The Toolkit</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">What I Bring to the Table</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
@@ -68,8 +70,8 @@ export default function Home() {
       {/* SECTION 03: WHERE I CAN PLUG IN */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">How I Can Help Praan (Day 1)</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">Product Management & Academy Operations.</h4>
+          <h3 className="text-lg font-semibold text-slate-900">03. Where I Can Plug In</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">How I Can Help Praan (Day 1)</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
@@ -94,8 +96,8 @@ export default function Home() {
       {/* SECTION 04: THE PROOF */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">Builders Only</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">Why I built this app.</h4>
+          <h3 className="text-lg font-semibold text-slate-900">04. The Proof</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">Builders Only</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
@@ -109,20 +111,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* COMPONENT: THE BUILDER'S LAB */}
+      <BuildersLab />
+
       {/* SECTION 05: THE WHY */}
       <section className="mb-12 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">Skin in the Game</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">Alignment with the Long Arc.</h4>
+          <h3 className="text-lg font-semibold text-slate-900">05. Skin in the Game</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">Why I Built This.</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
-          <div className="space-y-4 text-slate-700 leading-relaxed">
+          <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              I am drawn to Praan because you are solving a long-arc problem. I want to use my energy to build systems that respect human dignity and scale preventative health.
+              Most applicants send a PDF. I built this interactive prototype because <strong>builders build.</strong>
             </p>
-            <p className="font-medium text-slate-900">
-              I am ready to work in <strong>Product Management, Academy Infrastructure, or the Founder's Office</strong>.
+            <p>
+              I wanted to prove—not just claim—that I have the <strong>Product Intuition</strong> to understand your user, the <strong>Clinical Depth</strong> to respect your protocols, and the <strong>Technical Range</strong> to scale your vision.
             </p>
+            <p>
+              The tools above are just a simulation. I am ready to build the real thing.
+            </p>
+
+            <div className="pt-4 border-t border-slate-100">
+              <h5 className="text-slate-900 font-semibold mb-2">The Commitment</h5>
+              <p className="mb-4">
+                I am eager to bring this energy, rigor, and execution to your team. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
+              </p>
+              <p className="font-bold text-slate-900 text-lg">
+                I am ready to get to work.
+              </p>
+            </div>
           </div>
         </div>
       </section>
