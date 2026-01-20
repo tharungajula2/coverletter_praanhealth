@@ -249,20 +249,20 @@ export default function BuildersLab() {
                     <div className="flex-1 p-6 md:p-8 flex flex-col items-center justify-center animate-in fade-in slide-in-from-right-4 duration-300 relative">
 
                         <div className="w-full max-w-2xl">
-                            <div className="flex justify-between items-end mb-6">
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-6 gap-4">
                                 <div>
-                                    <h2 className="text-2xl font-bold text-slate-900">Predictive Biomarker Analysis</h2>
-                                    <p className="text-sm text-slate-500">Connecting hidden data points to predict adverse events.</p>
+                                    <h2 className="text-xl md:text-2xl font-bold text-slate-900 leading-tight">Predictive Biomarker Analysis</h2>
+                                    <p className="text-sm text-slate-500 mt-1">Connecting hidden data points to predict adverse events.</p>
                                 </div>
-                                <div className="flex gap-4 text-xs font-semibold">
-                                    <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-orange-500"></span> Gait Velocity</div>
-                                    <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-blue-500"></span> Nocturnal SpO2</div>
+                                <div className="flex flex-wrap gap-3 text-[10px] md:text-xs font-semibold">
+                                    <div className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-orange-500"></span> Gait Velocity</div>
+                                    <div className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-blue-500"></span> Nocturnal SpO2</div>
                                 </div>
                             </div>
 
                             {/* CHART CONTAINER */}
-                            <div className="w-full aspect-[2/1] bg-slate-50 rounded-xl border border-slate-100 relative mb-6 overflow-hidden">
-                                <svg className="w-full h-full p-4 overflow-visible" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <div className="w-full aspect-[4/3] md:aspect-[2/1] bg-slate-50 rounded-xl border border-slate-100 relative mb-6 overflow-hidden">
+                                <svg className="w-full h-full p-2 md:p-4 overflow-visible" viewBox="0 0 100 100" preserveAspectRatio="none">
                                     {/* Grid Lines */}
                                     {[0, 25, 50, 75, 100].map(y => (
                                         <line key={y} x1="0" y1={y} x2="100" y2={y} stroke="#e2e8f0" strokeWidth="0.5" />
@@ -308,14 +308,14 @@ export default function BuildersLab() {
 
                                 {/* TOOLTIP / ALERT */}
                                 {(hoverWeek === 10 || showRecovery) && !showRecovery && (
-                                    <div className="absolute top-10 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur border border-red-100 shadow-lg p-4 rounded-lg w-64 text-center z-10 animate-in zoom-in-95 duration-200">
-                                        <div className="text-red-500 font-bold text-xs uppercase mb-1">⚠️ Correlation Alert (r=0.94)</div>
-                                        <p className="text-slate-700 text-xs leading-relaxed">
+                                    <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur border border-red-100 shadow-xl p-4 rounded-lg w-[90%] max-w-[260px] text-center z-20 animate-in zoom-in-95 duration-200">
+                                        <div className="text-red-500 font-bold text-[10px] uppercase mb-1 tracking-wider">⚠️ Correlation Alert (r=0.94)</div>
+                                        <p className="text-slate-800 text-xs leading-relaxed font-medium mb-3">
                                             Hypoxic episodes (SpO2 drop) are driving Gait Instability. Fall Risk Imminent.
                                         </p>
                                         <button
                                             onClick={() => setShowRecovery(true)}
-                                            className="mt-3 bg-red-500 hover:bg-red-600 text-white text-xs font-bold py-2 px-4 rounded-full transition-colors w-full"
+                                            className="bg-red-500 hover:bg-red-600 active:scale-95 text-white text-xs font-bold py-2.5 px-4 rounded-full transition-all w-full shadow-md shadow-red-200"
                                         >
                                             Activate 'Sleep-Recovery' Protocol
                                         </button>

@@ -5,9 +5,11 @@ export default function Home() {
     <main className="w-full max-w-3xl mx-auto pt-12 pb-12 px-6 sm:px-8">
       {/* HEADER SECTION */}
       <section className="mb-16 text-center sm:text-left">
-        <p className="text-base text-slate-600 font-medium tracking-wide mb-4">
-          To: Navneeth Ramprasad <span className="text-slate-400 px-2">|</span> From: Tharun Kumar Gajula
-        </p>
+        <div className="flex flex-col sm:flex-row items-center sm:justify-start gap-1 sm:gap-2 text-base text-slate-600 font-medium tracking-wide mb-6">
+          <span>To: Navneeth Ramprasad</span>
+          <span className="hidden sm:inline text-slate-300">|</span>
+          <span>From: Tharun Kumar Gajula</span>
+        </div>
         <h1 className="text-4xl font-serif font-medium text-slate-900 tracking-tight">
           A Builder for the Founder's Office
         </h1>
@@ -146,11 +148,17 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="text-center text-sm text-slate-400 mt-8 mb-0 space-y-2">
-        <p>Built by Tharun Kumar Gajula // India // 2026</p>
-        <div className="flex justify-center gap-4">
-          <span>LinkedIn</span>
-          <span>Portfolio/Github</span>
+      <footer className="mt-20 mb-12 border-t border-slate-200/60 pt-8">
+        <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-6">
+          <div>
+            <p className="text-slate-900 font-medium">Built by Tharun Kumar Gajula</p>
+            <p className="text-xs text-slate-400 mt-1">Bangalore, India // 2026</p>
+          </div>
+          <div className="flex gap-6 text-sm font-medium text-slate-500">
+            <span className="hover:text-orange-600 cursor-pointer transition-colors">LinkedIn</span>
+            <span className="hover:text-orange-600 cursor-pointer transition-colors">Portfolio</span>
+            <span className="hover:text-orange-600 cursor-pointer transition-colors">GitHub</span>
+          </div>
         </div>
       </footer>
     </main>
