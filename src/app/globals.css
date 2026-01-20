@@ -3,12 +3,13 @@
 @layer base {
   body {
     @apply bg-slate-50 text-slate-900 antialiased subpixel-antialiased min-h-screen relative overflow-x-hidden;
-    /* Premium Health-Tech Gradient System - Bold Atmosphere */
+    /* Praan Warmth - Brand Glow (Amber/Terracotta) */
+    background-color: #fcf7f1;
     background-image: 
-      radial-gradient(at 0% 0%, rgba(190, 210, 240, 0.4) 0%, transparent 50%),
-      radial-gradient(at 100% 0%, rgba(220, 210, 200, 0.4) 0%, transparent 50%),
-      radial-gradient(at 100% 100%, rgba(210, 230, 255, 0.5) 0%, transparent 70%),
-      radial-gradient(at 0% 100%, rgba(240, 230, 220, 0.4) 0%, transparent 60%);
+      radial-gradient(at 0% 0%, rgba(253, 186, 116, 0.25) 0%, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(251, 146, 60, 0.15) 0%, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(255, 237, 213, 0.6) 0%, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(254, 215, 170, 0.3) 0%, transparent 50%);
     background-attachment: fixed;
   }
 }
