@@ -1,60 +1,69 @@
-# Why I Want to Build with Praan Health
-### A Personal Thinking Artifact
+# Praan Health: Digital Cover Letter & Builders Lab
 
-This project is a dedicated landing page serving as a "living cover letter" for Praan Health. Instead of a static PDF, it demonstrates product thinking, systems design, and craftsmanship through code.
+**A "Product-Minded Generalist" Pitch by Tharun Kumar Gajula.**
 
-It is designed to be read like a personal letter: calm, focused, and respectful of the reader's time.
+## 1. What is this Project?
+This is not just a standard web page. It is a live demonstration of skill. 
+Instead of sending a PDF cover letter, I built a fully functional web application to demonstrate that I don't just "manage" products—I **build** them.
 
-## 📖 Content Overview
-
-The narrative is structured into 6 key chapters, moving from personal alignment to operational execution:
-
-1.  **Where I Fit**: Defining the intersection of Product, Academy, Quality, and Systems.
-2.  **Operating Principles**: "Auditability over Cleverness" and "Quality Must Be Designed."
-3.  **Builder Mindset**: How I translate intent into working scorecards, workflows, and operating systems.
-4.  **The Quality Engine**: Creating a reinforcement loop between Product and Academy.
-5.  **Early Contribution**: A 60-day plan focusing on "Observe" and "Build."
-6.  **Personal Alignment**: Why healthcare and long-arc systems matter to me.
-
-## 🎨 Design System
-
-The visual language is intentional—avoiding "SaaS marketing" tropes in favor of an **editorial, museum-like quality**.
-
-*   **Atmosphere**: A "Museum Light" gradient system (Cool Slate & Warm Stone) at 40-50% opacity creates a tangible, premium texture.
-*   **Surface Physics**: High-contrast matte cards (`bg-white/80` on `slate-50`) with translucent borders (`border-slate-200/80`) and ambient occlusion shadows.
-*   **Typography**: A restrained scale using `Inter` (sans-serif), prioritizing readability and hierarchy over size.
-*   **Interaction**: Subtle, weighty interactions. No flashiness, just stability.
-
-## 🛠️ Technology Stack
-
-*   **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
-*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **Font**: Inter (Google Fonts)
-*   **Animation**: `tailwindcss-animate` for subtle entrance fades.
-
-## 🚀 Getting Started
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/tharungajula2/coverletter_praanhealth.git
-    cd coverletter_praanhealth
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Run development server:**
-    ```bash
-    npm run dev
-    ```
-
-4.  **Build for production:**
-    ```bash
-    npm run build
-    npm start
-    ```
+This application serves two purposes:
+1.  **The Pitch:** It tells my professional story, optimizing for the "Founder's Office" role at Praan Health.
+2.  **The Proof:** It allows you to use a working **Clinical Assessment Engine** (The "Builders Lab") to screen a patient in real-time.
 
 ---
-*Built by Tharun · India · 2026*
+
+## 2. Key Feature: The "Clinical Assessment Engine"
+Located in Section 4 ("The Proof"), this is a custom-built software tool designed to simulate a patient intake process.
+
+### How it Works (The Logic):
+1.  **Input:** The user answers **15 Clinical Questions** (Age, Diabetes, Heart, Falls, etc.).
+2.  **Processing:** The "Brain" of the app assigns specific **Risk Scores** (0, 5, 10, 15, or 20 points) to every answer.
+3.  **Output:** It instantly calculates a specific health profile across **10 Body Systems** (Metabolic, Cardio, Neuro, Frailty, etc.) and visualizes it in a dashboard.
+
+### Why I built it:
+To prove that I have the **Clinical Depth** to understand medical protocols and the **Technical Range** to turn them into working software.
+
+---
+
+## 3. Technology Stack (Under the Hood)
+For the technically curious, here is what powers this application:
+
+*   **Framework:** [Next.js 14](https://nextjs.org/) (The industry standard for React apps).
+*   **Language:** [TypeScript](https://www.typescriptlang.org/) (JavaScript with strict safety rules).
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/) (For rapid, mobile-first design).
+*   **Deployment:** Ready for Vercel/Netlify.
+
+---
+
+## 4. How to Run This Project on Your Computer
+If you have this code on your local machine, follow these steps to run it:
+
+### Step 1: Install Dependencies
+Open your terminal (Command Prompt) in this folder and run:
+`npm install`
+*(This downloads all the necessary tools and libraries).*
+
+### Step 2: Start the Development Server
+Run this command to turn on the "Engine":
+`npm run dev`
+
+### Step 3: View it
+Open your web browser and go to:
+`http://localhost:3000`
+
+---
+
+## 5. Project Structure
+For developers looking at the code:
+*   `src/app/page.tsx`: The Main Landing Page (The Pitch, Toolkit, etc.).
+*   `src/components/BuildersLab.tsx`: The Logic Engine (The interactive assessment tool).
+*   `tailwind.config.ts`: The Design System settings.
+
+---
+
+## 6. Author
+**Tharun Kumar Gajula**
+*   **LinkedIn:** [linkedin.com/in/tharungajula](https://www.linkedin.com/in/tharungajula/)
+*   **GitHub:** [github.com/tharungajula2](https://github.com/tharungajula2)
+
+*"Builders Build."*

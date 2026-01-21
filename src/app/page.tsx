@@ -143,10 +143,6 @@ export default function Home() {
             <p>
               You will get my best work because this mission aligns with my own long-term arc. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
             </p>
-
-            <p className="font-bold text-slate-900 text-lg pt-4 border-t border-slate-100 mt-6">
-              Let's get to work.
-            </p>
           </div>
         </div>
       </section>
