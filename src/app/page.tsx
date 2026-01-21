@@ -22,15 +22,18 @@ export default function Home() {
       <section className="mb-24 space-y-6">
         <div>
           <h3 className="text-lg font-semibold text-slate-900">01. The Pitch</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">I am not a "Head of Education" or a "D2C Expert."</h4>
+          <h4 className="text-base font-medium text-orange-700 mt-1">The Product-Minded Generalist</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
             <p>
-              I saw your search for leaders in Academy and D2C. While I am not a clinician or a retail founder, I am the <strong>Infrastructure Builder</strong> who supports those leaders.
+              I am a Product-Minded Generalist who builds the systems that make teams efficient.
             </p>
             <p>
-              I operate in the messy middle—between Strategy and Execution. Whether it's defining Product Requirements, organizing chaotic data, or building internal tools, I exist to make the core business scalable.
+              I operate in the messy middle: between Strategy and Execution. Whether it is defining Product Requirements, organizing chaotic data, or building internal tools, I exist to make the core business scalable.
+            </p>
+            <p>
+              I am not looking for a rigid title. I am looking for the intersection of Operations, Product, and Data, but I am ready to blur the lines and do whatever is needed to accomplish the long-term vision of Praan Health.
             </p>
           </div>
         </div>
@@ -54,15 +57,15 @@ export default function Home() {
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Data Analytics:</strong> I don’t just extract data; I organize it into dashboards that help decision-making (Excel, SQL, Tableau).</span>
+                <span><strong>Data Analytics:</strong> I don't just extract data; I organize it into dashboards that help decision-making (Excel, SQL, PowerBI).</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Workflow Automation:</strong> I have a track record of identifying bottlenecks and writing the logic (Python/No-Code) to fix them.</span>
+                <span><strong>Workflow Automation & Building Tools:</strong> I have a track record of identifying bottlenecks and writing the logic (Python/No-Code) to fix them.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>The "Deep Tech" Edge:</strong> My recent work at <strong>IISc (Deep Learning)</strong> allows me to understand how to structure operational data today so it is ready for AI models tomorrow.</span>
+                <span><strong>The "Tech" Edge:</strong> My recent work at <strong>IISc (AI Executive Program)</strong> allows me to understand how to structure operational data today so it is ready for AI models tomorrow, following the interpretability and explainability requirements as per regulations similar to the finance domain.</span>
               </li>
             </ul>
           </div>
@@ -80,17 +83,23 @@ export default function Home() {
             <p>
               Based on what you are building, here is where I can add immediate value without needing a heavy ramp-up:
             </p>
-            <ol className="space-y-4 list-decimal list-outside ml-4 pl-2">
-              <li>
-                <strong>Technical Product Management:</strong> Bridging the gap between your Clinical Team and Tech Team. I can translate medical protocols into technical specifications (User Stories/Workflows) for your app.
+            <ul className="space-y-3">
+              <li className="flex gap-3">
+                <span className="text-slate-400 mt-1">•</span>
+                <span><strong>Technical Product Management:</strong> Bridging the gap between your Clinical Team and Tech Team. I can translate medical protocols into technical specifications (User Stories/Workflows) for your app.</span>
               </li>
-              <li>
-                <strong>Academy Operations:</strong> Building the tracking systems to monitor trainer performance and quality consistency across cities.
+              <li className="flex gap-3">
+                <span className="text-slate-400 mt-1">•</span>
+                <span><strong>Academy Operations:</strong> Building the tracking systems to monitor trainer performance and quality consistency across cities.</span>
               </li>
-              <li>
-                <strong>Special Projects:</strong> Acting as a deployable resource for the Founder’s Office to execute 0-to-1 internal initiatives.
+              <li className="flex gap-3">
+                <span className="text-slate-400 mt-1">•</span>
+                <span><strong>Special Projects:</strong> Acting as a deployable resource for the Founder's Office to execute 0-to-1 internal initiatives.</span>
               </li>
-            </ol>
+            </ul>
+            <div className="pt-2">
+              <p><strong>Test My Fitment:</strong> I am ready to execute a specific project or "0 to 1" initiative you have in mind as a practical screening process to prove my value to Praan Health.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -104,10 +113,14 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
             <p>
-              Your culture emphasizes 'Builders.' I believe in demonstrating capability rather than just listing it.
+              Your culture emphasizes "Builders." I believe in demonstrating capability rather than just listing it.
+            </p>
+            <p><strong>The Context:</strong></p>
+            <p>
+              I am not a web developer. Last week, I did not have the skill to build what you see below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
             </p>
             <p>
-              I built this web application over the weekend to show that I can move from <strong>Idea → Logic → Design → Deployment</strong> rapidly. I am ready to bring this same ownership to Praan.
+              Most applicants send a PDF. I built this interactive prototype because <strong>builders build.</strong> I wanted to prove I have the <strong>Product Intuition</strong> to understand your user, the <strong>Clinical Depth</strong> to respect your protocols, and the <strong>Resourcefulness</strong> to simply figure it out.
             </p>
           </div>
         </div>
@@ -125,24 +138,15 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              Most applicants send a PDF. I built this interactive prototype because <strong>builders build.</strong>
+              True "Skin in the Game" means personal alignment. I am not just looking for a role; I am looking to solve this specific problem because it matters to me personally and professionally.
             </p>
             <p>
-              I wanted to prove—not just claim—that I have the <strong>Product Intuition</strong> to understand your user, the <strong>Clinical Depth</strong> to respect your protocols, and the <strong>Technical Range</strong> to scale your vision.
-            </p>
-            <p>
-              The tools above are just a simulation. I am ready to build the real thing.
+              You will get my best work because this mission aligns with my own long-term arc. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
             </p>
 
-            <div className="pt-4 border-t border-slate-100">
-              <h5 className="text-slate-900 font-semibold mb-2">The Commitment</h5>
-              <p className="mb-4">
-                I am eager to bring this energy, rigor, and execution to your team. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
-              </p>
-              <p className="font-bold text-slate-900 text-lg">
-                I am ready to get to work.
-              </p>
-            </div>
+            <p className="font-bold text-slate-900 text-lg pt-4 border-t border-slate-100 mt-6">
+              Let's get to work.
+            </p>
           </div>
         </div>
       </section>
@@ -155,9 +159,8 @@ export default function Home() {
             <p className="text-xs text-slate-400 mt-1">Bangalore, India // 2026</p>
           </div>
           <div className="flex gap-6 text-sm font-medium text-slate-500">
-            <span className="hover:text-orange-600 cursor-pointer transition-colors">LinkedIn</span>
-            <span className="hover:text-orange-600 cursor-pointer transition-colors">Portfolio</span>
-            <span className="hover:text-orange-600 cursor-pointer transition-colors">GitHub</span>
+            <a href="https://www.linkedin.com/in/tharungajula/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600 cursor-pointer transition-colors">LinkedIn</a>
+            <a href="https://github.com/tharungajula2" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600 cursor-pointer transition-colors">GitHub</a>
           </div>
         </div>
       </footer>
