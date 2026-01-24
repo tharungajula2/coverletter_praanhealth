@@ -20,18 +20,19 @@ Located in Section 4 ("The Proof"), this is a custom-built software tool designe
 2.  **Processing:** The "Brain" of the app assigns specific **Risk Scores** (0, 5, 10, 15, or 20 points) to every answer.
 3.  **Output:** It instantly calculates a specific health profile across **10 Body Systems** (Metabolic, Cardio, Neuro, Frailty, etc.) and visualizes it in a dashboard.
 
-### Why I built it:
-To prove that I have the **Clinical Depth** to understand medical protocols and the **Technical Range** to turn them into working software.
+*   👉 **Want to understand the math?** Read the [Deep Dive Guide](./clinical_assessment_engine_deep_dive.md).
 
 ---
 
-## 3. Technology Stack (Under the Hood)
+## 3. Technology Stack & Design System
 For the technically curious, here is what powers this application:
 
 *   **Framework:** [Next.js 14](https://nextjs.org/) (The industry standard for React apps).
 *   **Language:** [TypeScript](https://www.typescriptlang.org/) (JavaScript with strict safety rules).
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com/) (For rapid, mobile-first design).
-*   **Deployment:** Ready for Vercel/Netlify.
+*   **Design System:** "Praan Warmth" (Custom gradients, colors, and pattern library).
+
+*   👉 **Want to replicate this app?** Read the [Design System & Branding Guide](./design_system_and_branding.md).
 
 ---
 
@@ -58,6 +59,8 @@ For developers looking at the code:
 *   `src/app/page.tsx`: The Main Landing Page (The Pitch, Toolkit, etc.).
 *   `src/components/BuildersLab.tsx`: The Logic Engine (The interactive assessment tool).
 *   `tailwind.config.ts`: The Design System settings.
+*   `design_system_and_branding.md`: The official style guide.
+*   `clinical_assessment_engine_deep_dive.md`: The logic documentation.
 
 ---
 
