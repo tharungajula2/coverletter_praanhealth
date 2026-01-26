@@ -1,4 +1,3 @@
-import BuildersLab from "@/components/BuildersLab";
 
 export default function Home() {
   return (
@@ -104,47 +103,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 04: THE PROOF */}
+      {/* SECTION 04: THE PROOF & COMMITMENT */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">04. The Proof</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">Builders Only</h4>
+          <h3 className="text-lg font-semibold text-slate-900">04. The Proof & Commitment</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">Builders Build</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
-          <div className="space-y-4 text-slate-700 leading-relaxed">
+          <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
               Your culture emphasizes "Builders." I believe in demonstrating capability rather than just listing it.
             </p>
             <p><strong>The Context:</strong></p>
             <p>
-              I am not a web developer. Last week, I did not have the skill to build what you see below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
+              I am not a web developer. Last week, I did not have the skill to build what you see linked below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
             </p>
             <p>
-              Most applicants send a PDF. I built this interactive prototype because <strong>builders build.</strong> I wanted to prove I have the <strong>Product Intuition</strong> to understand your user, the <strong>Clinical Depth</strong> to respect your protocols, and the <strong>Resourcefulness</strong> to simply figure it out.
+              Most applicants send a PDF. I built a comprehensive Clinical Operating System (Yukti OS) because <strong>builders build.</strong>
             </p>
+
+            <div className="pt-4 border-t border-slate-100 mt-4">
+              <p><strong>Why I Built This:</strong></p>
+              <p>
+                True "Skin in the Game" means personal alignment. I am not just looking for a role; I am looking to solve this specific problem because it matters to me personally and professionally.
+              </p>
+              <p>
+                You will get my best work because this mission aligns with my own long-term arc. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
 
-      {/* COMPONENT: THE BUILDER'S LAB */}
-      <BuildersLab />
+        {/* YUKTI PORTAL CARD */}
+        <a
+          href="https://yukti-os.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group relative overflow-hidden rounded-xl border border-orange-200 bg-white/60 p-8 shadow-sm transition-all duration-300 hover:scale-[1.01] hover:border-orange-400 hover:shadow-md active:scale-[0.99]"
+        >
+          {/* Decorative Glow */}
+          <div className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-orange-100 blur-3xl transition-all group-hover:bg-orange-200" />
 
-      {/* SECTION 05: THE WHY */}
-      <section className="mb-12 space-y-6">
-        <div>
-          <h3 className="text-lg font-semibold text-slate-900">05. Skin in the Game</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">Why I Built This.</h4>
-        </div>
-        <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
-          <div className="space-y-6 text-slate-700 leading-relaxed">
-            <p>
-              True "Skin in the Game" means personal alignment. I am not just looking for a role; I am looking to solve this specific problem because it matters to me personally and professionally.
-            </p>
-            <p>
-              You will get my best work because this mission aligns with my own long-term arc. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
-            </p>
+          <div className="relative flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">Project Yukti • Phase 2</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 group-hover:text-orange-700 transition-colors">
+                The Clinical Assessment Engine (Yukti OS)
+              </h3>
+              <p className="text-sm text-slate-500 max-w-lg">
+                A fully functional operational dashboard simulating Praan's 15-point intake protocol, risk logic, and patient tracking.
+              </p>
+            </div>
+
+            <div className="flex-shrink-0">
+              <span className="inline-flex items-center gap-2 rounded-lg bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition-colors group-hover:bg-orange-600">
+                Launch Builder's Lab
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </span>
+            </div>
           </div>
-        </div>
+        </a>
       </section>
 
       {/* FOOTER */}
