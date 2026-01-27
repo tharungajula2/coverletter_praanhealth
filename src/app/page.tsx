@@ -21,18 +21,18 @@ export default function Home() {
       <section className="mb-24 space-y-6">
         <div>
           <h3 className="text-lg font-semibold text-slate-900">01. The Pitch</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">The Product-Minded Generalist</h4>
+          <h4 className="text-base font-medium text-orange-700 mt-1">The Product & Operations Builder</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
             <p>
-              I am a Product-Minded Generalist who builds the systems that make teams efficient.
+              A Product-Minded Builder sitting at the intersection of Business Strategy and Technical Execution.
             </p>
             <p>
-              I operate in the messy middle: between Strategy and Execution. Whether it is defining Product Requirements, organizing chaotic data, or building internal tools, I exist to make the core business scalable.
+              Operating in the messy middle means doing the unglamorous work: translating Business Requirements, organizing chaotic data, or building internal tools to make the core business scalable.
             </p>
             <p>
-              I am not looking for a rigid title. I am looking for the intersection of Operations, Product, and Data, but I am ready to blur the lines and do whatever is needed to accomplish the long-term vision of Praan Health.
+              The goal is not a rigid title, but the effective intersection of Operations, Product, and Data. Ready to blur the lines and execute whatever is needed to accomplish the long-term vision of Praan Health.
             </p>
           </div>
         </div>
@@ -47,24 +47,24 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              I have spent the last 5 years working across different domains, picking up whatever tool was needed to solve the problem at hand:
+              Over the last 5 years, the focus has been on picking up whatever tool solves the problem at hand:
             </p>
             <ul className="space-y-3">
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Product Management:</strong> I have experience translating vague business goals into clear <strong>BRDs (Business Requirement Documents)</strong> and workflows that engineering teams can actually build.</span>
+                <span><strong>Product Management:</strong> Translating vague business goals into clear <strong>BRDs (Business Requirement Documents)</strong> and workflows that engineering teams can actually build.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Data Analytics:</strong> I don't just extract data; I organize it into dashboards that help decision-making (Excel, SQL, PowerBI).</span>
+                <span><strong>Data Analytics:</strong> Moving beyond data extraction to organize information into dashboards that drive decision-making (Excel, SQL, PowerBI).</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Workflow Automation & Building Tools:</strong> I have a track record of identifying bottlenecks and writing the logic (Python/No-Code) to fix them.</span>
+                <span><strong>Workflow Automation & Building Tools:</strong> Identifying bottlenecks and writing the logic (Python/No-Code) to fix them permanently.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>The "Tech" Edge:</strong> My recent work at <strong>IISc (AI Executive Program)</strong> allows me to understand how to structure operational data today so it is ready for AI models tomorrow, following the interpretability and explainability requirements as per regulations similar to the finance domain.</span>
+                <span><strong>The "Tech" Edge:</strong> Leveraging recent work at <strong>IISc (AI Executive Program)</strong> to structure operational data today so it is ready for AI models tomorrow, adhering to interpretability standards similar to the finance domain.</span>
               </li>
             </ul>
           </div>
