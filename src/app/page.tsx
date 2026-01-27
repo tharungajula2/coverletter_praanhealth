@@ -114,21 +114,23 @@ export default function Home() {
             <p>
               Your culture emphasizes "Builders." I believe in demonstrating capability rather than just listing it.
             </p>
-            <p><strong>The Context:</strong></p>
-            <p>
-              I am not a web developer. Last week, I did not have the skill to build what you see linked below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
-            </p>
+            <div>
+              <p className="font-bold text-slate-900 mb-2">The Context:</p>
+              <p>
+                I am not a web developer. Last week, I did not have the skill to build what you see linked below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
+              </p>
+            </div>
             <p>
               Most applicants send a PDF. I built a comprehensive Clinical Operating System (Yukti OS) because <strong>builders build.</strong>
             </p>
 
             <div className="pt-4 border-t border-slate-100 mt-4">
-              <p><strong>Why I Built This:</strong></p>
-              <p>
-                True "Skin in the Game" means personal alignment. I am not just looking for a role; I am looking to solve this specific problem because it matters to me personally and professionally.
+              <p className="font-bold text-slate-900 mb-2">Why I Built This:</p>
+              <p className="mb-4">
+                True "Skin in the Game" means personal alignment. This is not just a role; it is a problem that fits my long-term arc.
               </p>
               <p>
-                You will get my best work because this mission aligns with my own long-term arc. I want to align my craft with your cause and contribute to building the infrastructure of care that our parents deserve.
+                I want to dedicate my craft to building the infrastructure of care that our parents deserve.
               </p>
             </div>
           </div>
