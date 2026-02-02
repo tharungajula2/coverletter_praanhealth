@@ -64,7 +64,7 @@ export default function Home() {
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>0-to-1 Execution</strong><br />Acting as a deployable resource for special projects. Ready to execute internal initiatives that need a "Builder" mindset—owning the process from idea to deployment without needing a heavy ramp-up.</span>
+                <span><strong>0-to-1 Execution</strong><br />Acting as a deployable resource for special projects. Ready to execute internal initiatives that need a "Builder" mindset - owning the process from idea to deployment without needing a heavy ramp-up.</span>
               </li>
             </ul>
             <div className="pt-2">
