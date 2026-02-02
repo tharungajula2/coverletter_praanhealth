@@ -83,27 +83,20 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              Your culture emphasizes "Builders." I believe in demonstrating capability rather than just listing it.
+              Your culture emphasizes "Builders," so I chose to demonstrate a capability rather than just list it.
             </p>
             <div>
-              <p className="font-bold text-slate-900 mb-2">The Context:</p>
+              <p className="font-bold text-slate-900 mb-2">The Context</p>
               <p>
-                I am not a web developer. Last week, I did not have the skill to build what you see linked below. But I had clear intent, a problem statement, and a deadline. I used AI tools and persistence to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
+                I am not a professional web developer. Last week, I did not have the skill to build what you see below. But I had a problem statement and a deadline. I used AI tools to move from <strong>Idea &gt; Logic &gt; Design &gt; Deployment</strong> over the weekend.
               </p>
             </div>
             <p>
-              Most applicants send a PDF. I built a comprehensive Clinical Operating System (Yukti OS) because <strong>builders build.</strong>
+              Most applicants send a PDF. I built this prototype because true "Skin in the Game" is about execution.
             </p>
-
-            <div className="pt-4 border-t border-slate-100 mt-4">
-              <p className="font-bold text-slate-900 mb-2">Why I Built This:</p>
-              <p className="mb-4">
-                True "Skin in the Game" means personal alignment. This is not just a role; it is a problem that fits my long-term arc.
-              </p>
-              <p>
-                I want to dedicate my craft to building the infrastructure of care that our parents deserve.
-              </p>
-            </div>
+            <p>
+              My value proposition is simple. I don't need a perfect roadmap to be effective. Give me a clear problem statement, and I will find the tools and the technical logic to make it work.
+            </p>
           </div>
         </div>
 
@@ -149,7 +142,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-6">
           <div>
             <p className="text-slate-900 font-medium">Built by Tharun Kumar Gajula</p>
-            <p className="text-xs text-slate-400 mt-1">Bangalore, India // 2026</p>
+            <p className="text-xs text-slate-400 mt-1">Anantapur, India // 2026</p>
           </div>
           <div className="flex gap-6 text-sm font-medium text-slate-500">
             <a href="https://www.linkedin.com/in/tharungajula/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600 cursor-pointer transition-colors">LinkedIn</a>
