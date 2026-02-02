@@ -10,103 +10,74 @@ export default function Home() {
           <span>From: Tharun Kumar Gajula</span>
         </div>
         <h1 className="text-4xl font-serif font-medium text-slate-900 tracking-tight">
-          A Builder for the Founder's Office
+          Product • Data Analytics • Operations
         </h1>
         <h2 className="text-xl font-medium text-orange-700 mt-2">
-          Product, Operations, and Data Execution.
+          Bridging Business Strategy and Technical Execution
         </h2>
       </section>
 
-      {/* SECTION 01: THE PITCH */}
+      {/* SECTION 01: THE PROFESSIONAL SUMMARY */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">01. The Pitch</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">The Product & Operations Builder</h4>
+          <h3 className="text-lg font-semibold text-slate-900">01. The Professional Summary</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">Connecting the Dots</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-4 text-slate-700 leading-relaxed">
             <p>
-              A Product-Minded Builder sitting at the intersection of Business Strategy and Technical Execution.
+              I operate at the intersection of Business Strategy and Technical Execution.
             </p>
             <p>
-              Operating in the messy middle means doing the unglamorous work: translating Business Requirements, organizing chaotic data, or building internal tools to make the core business scalable.
+              My experience spans the full spectrum of delivery - from translating vague business requirements into clear technical specifications, to transforming raw data into predictive machine learning models, and building custom automation tools that solve operational bottlenecks.
             </p>
             <p>
-              The goal is not a rigid title, but the effective intersection of Operations, Product, and Data. Ready to blur the lines and execute whatever is needed to accomplish the long-term vision of Praan Health.
+              I prioritize the necessary, unglamorous work that connects Operations, Product, and Data. <strong>My goal is simple:</strong> To blur the lines between these functions and execute whatever infrastructure is needed to accomplish the long-term vision of Praan Health.
             </p>
           </div>
         </div>
       </section>
 
-      {/* SECTION 02: THE TOOLKIT */}
+      {/* SECTION 02: THE EXECUTION ENGINE */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">02. The Toolkit</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">What I Bring to the Table</h4>
+          <h3 className="text-lg font-semibold text-slate-900">02. The Execution Engine</h3>
+          <h4 className="text-base font-medium text-orange-700 mt-1">Capabilities & Immediate Impact</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
           <div className="space-y-6 text-slate-700 leading-relaxed">
             <p>
-              Over the last 5 years, the focus has been on picking up whatever tool solves the problem at hand:
+              Over the last 5 years, the focus has been on picking up whatever tool solves the problem at hand. Here is how that toolkit translates to value for Praan Health from Day 1:
             </p>
             <ul className="space-y-3">
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Product Management:</strong> Translating vague business goals into clear <strong>BRDs (Business Requirement Documents)</strong> and workflows that engineering teams can actually build.</span>
+                <span><strong>Technical Product Management</strong><br />Bridging the gap between Clinical Teams and Engineering. This involves translating medical protocols and business goals into clear BRDs (Business Requirement Documents), user stories, and workflows that developers can actually build.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Data Analytics:</strong> Moving beyond data extraction to organize information into dashboards that drive decision-making (Excel, SQL, PowerBI).</span>
+                <span><strong>Data Intelligence & AI</strong><br />Moving beyond simple data extraction to manage the full data lifecycle. Whether it involves cleaning raw data or designing dashboards for the Founder's Office, the focus is on building predictive machine learning models and AI solutions that drive decision-making.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Workflow Automation & Building Tools:</strong> Identifying bottlenecks and writing the logic (Python/No-Code) to fix them permanently.</span>
+                <span><strong>Operations & Automation</strong><br />Identifying bottlenecks in daily workflows and building the logic to fix them. For initiatives like the Praan Academy, this means creating tracking systems and automation layers (using Python or No-Code) to monitor quality and consistency at scale.</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-slate-400 mt-1">•</span>
-                <span><strong>The "Tech" Edge:</strong> Leveraging recent work at <strong>IISc (AI Executive Program)</strong> to structure operational data today so it is ready for AI models tomorrow, adhering to interpretability standards similar to the finance domain.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 03: WHERE I CAN PLUG IN */}
-      <section className="mb-24 space-y-6">
-        <div>
-          <h3 className="text-lg font-semibold text-slate-900">03. Where I Can Plug In</h3>
-          <h4 className="text-base font-medium text-orange-700 mt-1">How I Can Help Praan (Day 1)</h4>
-        </div>
-        <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
-          <div className="space-y-6 text-slate-700 leading-relaxed">
-            <p>
-              Based on what you are building, here is where I can add immediate value without needing a heavy ramp-up:
-            </p>
-            <ul className="space-y-3">
-              <li className="flex gap-3">
-                <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Technical Product Management:</strong> Bridging the gap between your Clinical Team and Tech Team. I can translate medical protocols into technical specifications (User Stories/Workflows) for your app.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Academy Operations:</strong> Building the tracking systems to monitor trainer performance and quality consistency across cities.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-slate-400 mt-1">•</span>
-                <span><strong>Special Projects:</strong> Acting as a deployable resource for the Founder's Office to execute 0-to-1 internal initiatives.</span>
+                <span><strong>0-to-1 Execution</strong><br />Acting as a deployable resource for special projects. Ready to execute internal initiatives that need a "Builder" mindset—owning the process from idea to deployment without needing a heavy ramp-up.</span>
               </li>
             </ul>
             <div className="pt-2">
-              <p><strong>Test My Fitment:</strong> I am ready to execute a specific project or "0 to 1" initiative you have in mind as a practical screening process to prove my value to Praan Health.</p>
+              <p><strong>Test My Fitment:</strong> Ready to execute a specific project or initiative as a practical screening process to prove value.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 04: THE PROOF & COMMITMENT */}
+      {/* SECTION 03: THE PROOF & COMMITMENT */}
       <section className="mb-24 space-y-6">
         <div>
-          <h3 className="text-lg font-semibold text-slate-900">04. The Proof & Commitment</h3>
+          <h3 className="text-lg font-semibold text-slate-900">03. The Proof & Commitment</h3>
           <h4 className="text-base font-medium text-orange-700 mt-1">Builders Build</h4>
         </div>
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-xl p-8 shadow-sm">
@@ -153,13 +124,13 @@ export default function Home() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
                 </span>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">Project Yukti • Phase 2</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">PROJECT YUKTI • EXPERIMENTAL BUILD</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 group-hover:text-orange-700 transition-colors">
-                The Clinical Assessment Engine (Yukti OS)
+                Clinical Workflow Prototype (Yukti OS)
               </h3>
               <p className="text-sm text-slate-500 max-w-lg">
-                A fully functional operational dashboard simulating Praan's 15-point intake protocol, risk logic, and patient tracking.
+                A personal exploration of patient data workflows. Simulates device inputs and AI analysis to visualize how a connected care journey could look.
               </p>
             </div>
 
